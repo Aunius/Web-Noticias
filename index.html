@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>noticias</title>
+    <title>Web News</title>
     <!--FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <!--FUENTE LETRA- ROBOT SLAV-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;900&display=swap" rel="stylesheet">
     <!--CSS PERSONALIZADO-->
     <link rel="stylesheet" href="style.css">
+    <!--Scroll-Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 </head>
 <body>
 
@@ -48,7 +51,6 @@
                 </li>
             </ul>
         </nav>
-        <hr>
         
         <!--show case-->
         <header class="showcase">
@@ -84,7 +86,7 @@
 
         </div>
         <!--banner 1-->
-        <section class="banner-uno">
+        <section class="banner-one">
             <h2>Programming Class</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis magnam aliquam iste est nulla, voluptate minima eum magni, ipsa praesentium saepe odit ducimus laudantium cum voluptas ad a expedita nemo.</p>
             <a href="#" class="button">Read More <i class="fas-fa-angle-double-rigth"></i> </a>
@@ -254,6 +256,23 @@
     <footer class="footer">
         <h3>Copyright</h3>
     </footer>
+
+    <!--Scroll reveal-->
+    <script>
+        ScrollReveal().reveal('.showcase');
+    </script>
+    <script>
+        ScrollReveal().reveal('.cards', {delay: 300});
+    </script>
+    <script>
+        ScrollReveal().reveal('.banner-one', {delay: 300});
+    </script>
+    <script>
+        ScrollReveal().reveal('.cards-news', {delay: 300});
+    </script>
+    <script>
+    ScrollReveal().reveal('.social', {delay: 300});
+    </script>
 
 </body>
 </html>
